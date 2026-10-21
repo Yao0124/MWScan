@@ -1,6 +1,6 @@
-# YaoOSINT
+# MWScan
 
-一个基于 Python的轻量级查找网站中间件工具
+一个基于Python的轻量级扫描网站中间件工具
 
 ##  免责声明 
 
@@ -19,5 +19,5 @@
 ##  安装与使用
 
 **克隆仓库或下载代码**
-git clone https://github.com/Yao0124/YaoOSINT.git
-cd YaoOSINT
+git clone https://github.com/Yao0124/MWScan.git
+cd MWScan
