@@ -13,7 +13,7 @@ CYAN = '\033[96m'
 WHITE = '\033[97m'
 BOLD = '\033[1m'
 RESET = '\033[0m'
-logo = pyfiglet.figlet_format("SCAN", font="slant")
+logo = pyfiglet.figlet_format("MWSCAN", font="slant")
 print('by Yao0124')
 print(f"{RED}{logo}{RESET}")
 
