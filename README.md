@@ -1,6 +1,6 @@
 # YaoOSINT
 
-一个基于 Python 的轻量级 Web 信息收集 工具
+一个基于 Python的轻量级查找网站中间件工具
 
 ##  免责声明 
 
