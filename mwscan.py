@@ -1,4 +1,5 @@
-#by Yao0124
+# Copyright (c) 2026 Yao0124
+# SPDX-License-Identifier: MIT
 import requests
 from fake_useragent import UserAgent
 import pyfiglet
