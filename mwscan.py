@@ -34,6 +34,8 @@ def main():
         parser.print_help()
         exit(0)
     response = request(url, headers)
+    if response is None:
+        return
     server(response)
 
 def request(url,headers):
