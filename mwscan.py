@@ -4,6 +4,7 @@ import requests
 from fake_useragent import UserAgent
 import pyfiglet
 import argparse
+import sys
 
 RED = '\033[91m'
 GREEN = '\033[92m'
@@ -40,7 +41,7 @@ def main():
 
 def request(url,headers):
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers,timeout=10)
         return response
     except requests.exceptions.RequestException as e:
         print(f'连接错误:{url}')
@@ -56,4 +57,8 @@ def server(response):
         print(f'其他错误:{e}')
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('再见')
+        sys.exit(0)
